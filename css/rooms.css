@@ -1,0 +1,45 @@
+.banner {
+  background-image: url("/assets/img-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.box-quartos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    font-size: larger;
+ 
+}
+
+.box-quartos ul{
+    display: flex;
+    text-align: center;
+}
+
+.box-quartos li{
+    list-style: none;
+    color: #26b19d;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.img-quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+.img-quartos img{
+    height:  250px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
